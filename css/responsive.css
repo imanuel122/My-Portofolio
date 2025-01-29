@@ -1,0 +1,35 @@
+/* lg */
+@media screen and (max-width: 1200px) {
+}
+/* md */
+@media screen and (max-width: 992px) {
+  #skill .kotak-skill .card h3 {
+    font-size: 23px;
+  }
+}
+/* sm */
+@media screen and (max-width: 768px) {
+  #banner {
+    margin-top: 0px;
+  }
+  #banner .tulisan-banner {
+    margin-top: -30px;
+  }
+  #banner img {
+    width: 60%;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  #banner .btn-orange {
+    min-width: 50%;
+  }
+  #banner .kotak-sosmed {
+    bottom: 100px;
+  }
+}
+/* extra small */
+@media screen and (max-width: 576px) {
+}
+/* paling small */
+@media screen and (max-width: 350px) {
+}

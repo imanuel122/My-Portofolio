@@ -1,0 +1,169 @@
+/* variabel */
+:root {
+  --mainColor: #252734;
+  --secondaryColor: #333646;
+  --acsentColor: #ff9100;
+}
+
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global css */
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: "ubuntu", sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section .section-title {
+  font-weight: bold;
+}
+
+.btn-orange {
+  background-color: var(--acsentColor);
+  color: #fff;
+}
+.btn-orange:hover {
+  background-color: var(--acsentColor);
+  box-shadow: 0 0 5px rgba(255, 166, 0, 0.8);
+}
+
+.text-orange {
+  color: var(--acsentColor);
+}
+
+hr {
+  width: 35%;
+  height: 5px;
+  color: var(--acsentColor);
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.kotak-sosmed i:hover {
+  color: var(--acsentColor) !important;
+}
+
+/* css per section */
+
+/* navbar */
+#navbar {
+  background-color: var(--secondaryColor);
+  padding: 5px !important;
+}
+nav .navbar-brand {
+  font-weight: 700;
+}
+/* end navbar */
+
+/* banner */
+#banner {
+  color: #fff;
+  min-height: 100vh;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#banner .btn-orange {
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+#banner img {
+  width: 100%;
+  /* width: 85%; */
+}
+/* end banner */
+
+/* about */
+#about {
+  background-color: var(--secondaryColor);
+}
+/* end about */
+
+/* skill */
+#skill {
+  background-color: var(--mainColor);
+}
+#skill img {
+  width: 13%;
+  margin: 10px;
+}
+
+#skill .kotak-skill .card {
+  background-color: #414558;
+  color: #fff;
+  min-height: 300px;
+  padding: 16px;
+}
+#skill .kotak-skill .card:hover {
+  background-color: var(--acsentColor);
+  /* box-shadow: 0 0 5px rgba(255, 166, 0, 0.8); */
+}
+#skill .kotak-skill .card img {
+  width: 35%;
+  margin: 10px 0;
+}
+/* end skill */
+
+/* sertifikat */
+#sertifikat {
+  margin-top: -240px;
+  padding-top: 250px;
+  padding-bottom: 80px;
+  background-color: var(--secondaryColor);
+}
+/* end sertifikat */
+
+/* my project */
+#myproject {
+  background-color: var(--mainColor);
+  color: #fff;
+}
+#myproject img {
+  width: 100%;
+}
+#myproject h5 {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+/* end my project */
+
+/* contact */
+#contact {
+  background-color: var(--secondaryColor);
+}
+#contact button {
+  width: 20%;
+}
+/* end contact */
+
+/* footer */
+footer {
+  background-color: var(--secondaryColor);
+  padding-bottom: 30px;
+}
+footer p {
+  font-size: 14px;
+}
+/* end footer */
