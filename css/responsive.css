@@ -3,6 +3,9 @@
 }
 /* md */
 @media screen and (max-width: 992px) {
+  #skill .kotak-skill .card {
+    min-height: 390px;
+  }
   #skill .kotak-skill .card h3 {
     font-size: 23px;
   }
@@ -25,6 +28,9 @@
   }
   #banner .kotak-sosmed {
     bottom: 100px;
+  }
+  #skill .kotak-skill .card {
+    min-height: 300px;
   }
   #contact .btn-orange {
     width: 40%;
